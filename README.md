@@ -27,6 +27,13 @@ The project follows the following steps:
 
 6. **Results and Performance Comparison**: The results of the trained models are compared to determine their performance. Visualizations, such as bar plots, are used to compare the training time, testing time, and accuracy of each model.
 
+7. **Website
+The project includes a web interface where users can input text messages and receive predictions about the review. This interface is created using **HTML CSS Java Script** . The website provides a user-friendly interface for sentiment analysis.
+
+## 8. Deployment
+The final model is deployed, and the website is hosted to make it accessible to users. This process is done using **Flask** and **Azure**.
+You can access the app from [https://spamclassify.azurewebsites.net/](https://sentimentalanalysis.azurewebsites.net/) 
+
 
 
 ## Technologies Used
@@ -41,4 +48,12 @@ The project follows the following steps:
 - nltk
 - seaborn
 - matplotlib
+
+## Instructions
+To run this on your own system -
+- Pull this repositery
+- Install required dependency and library using -
+  ```pip install -r requirements.txt```
+- Run using -
+  ```flask --app app run```
 
