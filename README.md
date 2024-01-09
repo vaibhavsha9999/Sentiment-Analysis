@@ -32,7 +32,7 @@ The project includes a web interface where users can input text messages and rec
 
 8. **Deployment**
 The final model is deployed, and the website is hosted to make it accessible to users. This process is done using **Flask** and **Azure**.
-You can access the app from [https://spamclassify.azurewebsites.net/](https://sentimentalanalysis.azurewebsites.net/) 
+You can access the app from [https://spamclassify.azurewebsites.net/](https://sentimentalanalysis.azurewebsites.net/) . It may take sometime to load as it is deployed on free resources.
 
 
 
